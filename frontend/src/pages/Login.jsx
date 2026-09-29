@@ -66,7 +66,7 @@ const Login = () => {
     <div className="min-h-screen bg-linear-to-br from-blue-50 to-purple-50 flex items-center justify-center p-4">
       <div className="w-full max-w-md">
         <div className="flex items-center justify-center gap-2 mb-8 cursor-pointer" onClick={() => navigate('/')}>
-          <span className="text-3xl font-bold text-primary">GenAI</span>
+          <span className="text-3xl font-bold text-primary">MagicNova</span>
           <WandSparkles className="w-7 h-7 text-primary" />
         </div>
 

@@ -46,7 +46,7 @@ class UserService {
 
             // send email
             sendMail({
-                from: `GenAI <${envConfig.nodemailerEmail}>`,
+                from: `MagicNova <${envConfig.nodemailerEmail}>`,
                 to: registerDTO.email,
                 subject: "Email Verification",
                 html: `<p>Your OTP to verify registered email is <b>${otp}</b></p><p>This OTP will expire in 5 minutes</p>`
@@ -125,7 +125,7 @@ class UserService {
 
         // send email
         await sendMail({
-            from: `GenAI <${envConfig.nodemailerEmail}>`,
+            from: `MagicNova <${envConfig.nodemailerEmail}>`,
             to: resendOTPDTO.email,
             subject: "New OTP Sent",
             html: `<p>Your new OTP is <b>${otp}</b></p><p>This OTP will expire in 5 minutes</p>`

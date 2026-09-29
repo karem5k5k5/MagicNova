@@ -41,7 +41,7 @@ class UserService {
             user_repository_1.default.create(user),
             // send email
             (0, mail_1.sendMail)({
-                from: `GenAI <${env_1.envConfig.nodemailerEmail}>`,
+                from: `MagicNova <${env_1.envConfig.nodemailerEmail}>`,
                 to: registerDTO.email,
                 subject: "Email Verification",
                 html: `<p>Your OTP to verify registered email is <b>${otp}</b></p><p>This OTP will expire in 5 minutes</p>`
@@ -105,7 +105,7 @@ class UserService {
         }
         // send email
         await (0, mail_1.sendMail)({
-            from: `GenAI <${env_1.envConfig.nodemailerEmail}>`,
+            from: `MagicNova <${env_1.envConfig.nodemailerEmail}>`,
             to: resendOTPDTO.email,
             subject: "New OTP Sent",
             html: `<p>Your new OTP is <b>${otp}</b></p><p>This OTP will expire in 5 minutes</p>`

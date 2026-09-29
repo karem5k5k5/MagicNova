@@ -12,7 +12,7 @@ const Navbar = () => {
         className="flex items-center gap-2 text-primary md:text-4xl text-2xl font-bold cursor-pointer"
         onClick={() => { navigate('/'); window.scrollTo(0, 0) }}
       >
-        GenAI <WandSparkles className="md:w-9 md:h-9 w-6 h-6 text-primary" />
+        MagicNova <WandSparkles className="md:w-9 md:h-9 w-6 h-6 text-primary" />
       </h2>
 
       {user ? (

@@ -1,5 +1,5 @@
 {
-  "name": "genai-backend",
+  "name": "magicnova-backend",
   "version": "1.0.0",
   "description": "AI Content Generation Platform",
   "main": "./dist/index.js",
